@@ -27,6 +27,11 @@ export const router: Routes = [
   {
       path: 'face',
       component: FaceComponent
+  },
+
+  {
+      path: 'text',
+      component: FaceComponent
   }
 
 ];
