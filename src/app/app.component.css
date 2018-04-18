@@ -1,25 +1,44 @@
+
 .header {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background: grey;
+    padding-top: 15px;
+    font-size: 35px;
+    padding-bottom: 15px;
+    background: #ED474A;
     box-shadow: 5px 0 5px 5px lightgray;
     margin-bottom: 250px;
+    color: white;
 }
 
 .circle {
     width: 100px;
     height: 100px;
-    background: grey;
     border-radius: 100px;
     text-align: center;
     padding-top: 19px;
     font-size: 40px;
+    margin-left: 220px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    cursor: pointer;
+}
+
+.circle:hover {
+    box-shadow: 2px 2px 2px 2px lightgray;
+    transition: all .2s ease-in-out;
+}
+
+.image {
+    background: #255C99;
+}
+
+.text {
+    background: #9E829C;
 }
 
 .fa-plus {
     position: absolute;
-    left: 26px;
+    left: 246px;
     top: 3px;
     font-size: 100px;
     opacity: .5;
