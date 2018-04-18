@@ -4,8 +4,8 @@ import { VoiceService } from './voice.service';
 @Component({
   selector: 'voice-component',
   styleUrls: ['voice.component.css'],
-  templateUr: 'voice.component.html',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+  templateUrl: 'voice.component.html',
+  //changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class VoiceComponent implements OnInit {
 
