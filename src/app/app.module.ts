@@ -5,11 +5,12 @@ import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawe
 import { AppComponent } from './app.component';
 import { VoiceComponent } from './voice/voice.component';
 import { FaceComponent } from './face/face.component';
+import { TextComponent } from './text/text.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent, VoiceComponent, FaceComponent
+    AppComponent, VoiceComponent, FaceComponent, TextComponent
   ],
   imports: [
     BrowserModule,
