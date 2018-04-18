@@ -5,31 +5,31 @@
  * Copyright (c): 2017 CHEP
  */
 
-import { Routes, RouterModule } from '@angular/router';
+import { Routes, RouterModule } from "@angular/router";
 
-import { AppComponent } from '../app.component';
-import { FaceComponent } from '../face/face.component'
-import { HomeComponent } from '../home.component';
+import { AppComponent } from "../app.component";
+import { FaceComponent } from "../face/face.component";
+import { HomeComponent } from "../home.component";
+import { TextComponent } from "../text/text.component";
 
 export const motivatorRoutes: Routes = [
-  {
-    path: 'home',
-    component: HomeComponent,
-  },
+    {
+        path: "home",
+        component: HomeComponent
+    },
 
-  {
-      path: 'face',
-      component: FaceComponent
-  },
+    {
+        path: "face",
+        component: FaceComponent
+    },
 
-  {
-      path: 'text',
-      component: FaceComponent
-  },
-  {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  },
-
+    {
+        path: "text",
+        component: TextComponent
+    },
+    {
+        path: "",
+        redirectTo: "/home",
+        pathMatch: "full"
+    }
 ];
