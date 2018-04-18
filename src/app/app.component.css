@@ -2,6 +2,7 @@
 .header {
     text-align: center;
     padding-top: 15px;
+    font-size: 35px;
     padding-bottom: 15px;
     background: #ED474A;
     box-shadow: 5px 0 5px 5px lightgray;
@@ -20,6 +21,11 @@
     color: white;
     box-shadow: 5px 5px 5px 5px lightgray;
     cursor: pointer;
+}
+
+.circle:hover {
+    box-shadow: 2px 2px 2px 2px lightgray;
+    transition: all .2s ease-in-out;
 }
 
 .image {
