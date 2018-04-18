@@ -1,0 +1,21 @@
+.main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.emotion {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.response {
+    border: 3px solid lightgray;
+    border-radius: 3px;
+    background: #9E829C;
+}
