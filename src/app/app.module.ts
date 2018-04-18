@@ -5,6 +5,7 @@ import { Angular2FontawesomeModule } from 'angular2-fontawesome/angular2-fontawe
 import { AppComponent } from './app.component';
 import { FaceComponent } from './face/face.component';
 import { TextComponent } from './text/text.component';
+import { CannedResponseService } from './cannedresponses/cannedresponse.service';
 
 
 @NgModule({
@@ -15,7 +16,7 @@ import { TextComponent } from './text/text.component';
     BrowserModule,
     Angular2FontawesomeModule
   ],
-  providers: [],
+  providers: [CannedResponseService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
