@@ -5,6 +5,7 @@
 /dist-server
 /tmp
 /out-tsc
+.editorconfig
 
 # dependencies
 /node_modules
