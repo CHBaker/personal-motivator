@@ -17,7 +17,7 @@
     text-align: center;
     padding-top: 19px;
     font-size: 40px;
-    margin-left: 150px;
+    margin-left: 220px;
     color: white;
     box-shadow: 5px 5px 5px 5px lightgray;
     cursor: pointer;
@@ -38,7 +38,7 @@
 
 .fa-plus {
     position: absolute;
-    left: 176px;
+    left: 246px;
     top: 3px;
     font-size: 100px;
     opacity: .5;
