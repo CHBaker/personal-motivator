@@ -10,6 +10,8 @@ import "rxjs/add/operator/map";
     styleUrls: ["./text.component.css"]
 })
 export class TextComponent implements OnInit {
+    emotions = null;
+    results = null;
     showModal = false;
     constructor(private http: Http) {}
 
