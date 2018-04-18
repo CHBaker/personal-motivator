@@ -1,3 +1,6 @@
-<div>
-  <h1>test</h1>
-</div>
+<!-- your code here -->
+<app-results
+    *ngIf="results && emotions != null"
+    [emotion]="emotion"
+    [response]="response"
+></app-results>

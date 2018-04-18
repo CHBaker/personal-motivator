@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styles: []
 })
 export class FaceComponent implements OnInit {
+    emotion = null;
+    response = null;
 
   constructor() { }
 

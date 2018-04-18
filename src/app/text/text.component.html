@@ -4,3 +4,9 @@
   </div>
   <button (click)="analyze(textbox.value)">Submit</button>
 </div>
+<app-results
+    *ngIf="results && emotions != null"
+    [emotions]="emotions"
+    [results]="results"
+>
+</app-results>
