@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { FaceComponent } from './face/face.component';
 import { TextComponent } from './text/text.component';
 import { CannedResponseService } from './cannedresponses/cannedresponse.service';
+import { ResultsComponent } from './results/results.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent, FaceComponent, TextComponent
+    AppComponent, FaceComponent, TextComponent, ResultsComponent
   ],
   imports: [
     BrowserModule,

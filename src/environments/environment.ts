@@ -5,5 +5,7 @@
 
 export const environment = {
   production: false,
-  faceApiKey: '8340e21da3974cd2b07bf9ce8190c06e'
+  faceApiKey: '8340e21da3974cd2b07bf9ce8190c06e',
+  textApiKey: 'ba53d030b85c444083b5f2c1e6e0ec25',
+  endPointURL: 'https://westus.api.cognitive.microsoft.com/text/analytics/v2.0'
 };
