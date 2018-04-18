@@ -5,23 +5,16 @@
  * Copyright (c): 2017 CHEP
  */
 
-import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from '../app.component';
 import { FaceComponent } from '../face/face.component'
+import { HomeComponent } from '../home.component';
 
-export const router: Routes = [
-
-  {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  },
-
+export const motivatorRoutes: Routes = [
   {
     path: 'home',
-    component: AppComponent
+    component: HomeComponent,
   },
 
   {
@@ -32,8 +25,11 @@ export const router: Routes = [
   {
       path: 'text',
       component: FaceComponent
-  }
+  },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  },
 
 ];
-
-export const routes: ModuleWithProviders = RouterModule.forRoot(router);
