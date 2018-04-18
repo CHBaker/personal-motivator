@@ -1,4 +1,8 @@
 import { Component, OnInit } from "@angular/core";
+import { Http, Response } from "@angular/http";
+import { environment } from "../../environments/environment";
+import { Observable } from "rxjs/Observable";
+import "rxjs/add/operator/map";
 
 @Component({
     selector: "app-text",
@@ -7,12 +11,18 @@ import { Component, OnInit } from "@angular/core";
 })
 export class TextComponent implements OnInit {
     showModal = false;
-    constructor() {}
+    constructor(private http: Http) {}
 
     ngOnInit() {}
 
-    show() {
-        this.showModal = !this.showModal;
-        console.log("Open modal");
+    analyze(val) {
+        console.log(val);
+    }
+
+    private post(path: string, body: Object = {}): Observable<any> {
+        return this.http.post(
+            `${environment.textApiKey}`,
+            JSON.stringify(body)
+        );
     }
 }
