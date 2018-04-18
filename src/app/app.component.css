@@ -1,0 +1,39 @@
+
+.header {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #ED474A;
+    box-shadow: 5px 0 5px 5px lightgray;
+    margin-bottom: 250px;
+    color: white;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 40px;
+    margin-left: 150px;
+    color: white;
+    box-shadow: 5px 5px 5px 5px lightgray;
+    cursor: pointer;
+}
+
+.image {
+    background: #255C99;
+}
+
+.text {
+    background: #9E829C;
+}
+
+.fa-plus {
+    position: absolute;
+    left: 176px;
+    top: 3px;
+    font-size: 100px;
+    opacity: .5;
+}

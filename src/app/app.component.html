@@ -1,20 +1,21 @@
 <div class="row header">
-
+    <div class="col">
+        PERSONAL MOTIVATOR
+    </div>
 </div>
 <div class="container main">
     <div class="row">
-        <div class="col images">
-            <i class="fa fa-image" (click)="imageClick"></i>
+        <div class="col item">
+            <div class="circle image" (click)="imageClick()">
+                <i class="fa fa-image"></i>
+                <i class="fa fa-plus"></i>
+            </div>
         </div>
-        <div class="col text">
-
-        </div>
-        <div class="col voice">
-
+        <div class="col item">
+            <div class="circle text">
+                text
+                <i class="fa fa-plus"></i>
+            </div>
         </div>
     </div>
-</div>
-
-<div *ngIf="imageSelect">
-  <app-face></app-face>
 </div>

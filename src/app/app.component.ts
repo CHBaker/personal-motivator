@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'app';
 
   imageClick() {
+    console.log(this.imageSelect);
     if (this.imageSelect) {
       this.imageSelect = false;
     } else {
