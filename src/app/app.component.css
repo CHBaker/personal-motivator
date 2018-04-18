@@ -1,0 +1,26 @@
+.header {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: grey;
+    box-shadow: 5px 0 5px 5px lightgray;
+    margin-bottom: 250px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: grey;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 19px;
+    font-size: 40px;
+}
+
+.fa-plus {
+    position: absolute;
+    left: 26px;
+    top: 3px;
+    font-size: 100px;
+    opacity: .5;
+}
