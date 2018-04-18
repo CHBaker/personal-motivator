@@ -4,7 +4,7 @@
 <div class="container main">
     <div class="row">
         <div class="col images">
-            <i class="fa fa-image"></i>
+            <i class="fa fa-image" (click)="imageClick"></i>
         </div>
         <div class="col text">
 
@@ -13,4 +13,8 @@
 
         </div>
     </div>
+</div>
+
+<div *ngIf="imageSelect">
+  <app-face></app-face>
 </div>
